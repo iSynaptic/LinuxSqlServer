@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "LinuxSqlServer": {
+      "commandName": "Project"
+    }
+  }
+}
