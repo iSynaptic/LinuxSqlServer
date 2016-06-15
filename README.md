@@ -2,7 +2,7 @@ This repository contains code to reproduce an OpenSSL issue connecting to SQL se
 
 ##Steps to Reproduce##
 
-1. This is an optional step if you are already running on a Linux machine with docker installed. Run `vagrant up` in the repository root. When prompted, select an network adapter that has connectivity to a running SQL server that will be used to reproduce this issue. Run `vagrant ssh` to connect to the Vagrant built VM.
+1. This is an optional step, useful if you are NOT already running on a Linux machine with docker installed. Run `vagrant up` in the repository root. When prompted, select an network adapter that has connectivity to a running SQL server that will be used to reproduce this issue. Run `vagrant ssh` to connect to the Vagrant built VM.
 1. Navigate to the directory containing the source code for this application.  If within Vagrant VM, enter `cd /vagrant`.
 1. Build the Docker container by entering `sudo docker build -t lss .`.
 1. Run the Docker container interactively by entering `sudo docker run -i --rm lss`.
