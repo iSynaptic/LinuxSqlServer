@@ -1,4 +1,4 @@
-This repository contains code to reproduce an OpenSSL issue connecting to SQL server from ASP.NET Core 1.0 RC2.
+This repository contains code to reproduce an OpenSSL issue connecting to SQL server from ASP.NET Core 1.0 RC2. The version of SQL Server this is known to reproduce is `10.50.1720.0`.
 
 ##Steps to Reproduce##
 
